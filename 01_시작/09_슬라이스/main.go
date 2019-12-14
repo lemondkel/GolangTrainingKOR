@@ -70,4 +70,14 @@ func main() {
 
 	fmt.Println(x2)
 	fmt.Println(y2)
+
+	// 부분 슬라이스 만들기
+	// 복사(copy)가 아니라 참조이므로 내용을 바꾸면 양쪽 다 바뀜
+	x3 := x2[0:1]
+	fmt.Println(x3)
+
+	// 부분 슬라이스 복사하기 (x2[0]에 있는 항목 x4[0]으로 복사)
+	var x4 = []int{33, 22, 3}
+	copy(x4, x2[0:1])
+	fmt.Println(x4)
 }
