@@ -21,3 +21,13 @@
 * [고루틴](https://github.com/lemondkel/GolangTrainingKOR/tree/master/01_%EC%8B%9C%EC%9E%91/18_%EA%B3%A0%EB%A3%A8%ED%8B%B4)
 * [채널](https://github.com/lemondkel/GolangTrainingKOR/tree/master/01_%EC%8B%9C%EC%9E%91/19_%EC%B1%84%EB%84%90)
 * [리플렉션](https://github.com/lemondkel/GolangTrainingKOR/tree/master/01_%EC%8B%9C%EC%9E%91/20_%EB%A6%AC%ED%94%8C%EB%A0%89%EC%85%98)
+
+### Golang Web Framework 비교
+|명칭|내용|설명|Star|
+|------|---|---|---|
+|gin|다른 프레임워크보다 40% 더 빠른 우수하고 간단함.|Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.|51894|
+|beego|시스템의 기능과 부하를 더 쉽게 처리할 수 있게 해줌.|beego is an open-source, high-performance web framework for the Go programming language.|27032|
+|echo| |High performance, minimalist Go web framework|21360|
+|kit| |A standard library for microservices.|20797|
+|revel| |A high productivity, full-stack web framework for the Go language.|12400|
+|martini| |⚠️ No longer maintained ⚠️ Classy web framework for Go|11332|
